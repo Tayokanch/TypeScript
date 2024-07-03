@@ -14,7 +14,7 @@ type Admin = {
 
 let tayo : User | Admin = {
     name: "tayo",
-    id: 9439943934904390,
+    id: 94399390,
     username:"tayoAdmin"
 }
 
@@ -27,3 +27,8 @@ const getId = (id: number | string)=>{
     }
   
 }
+
+const data : (number | string ) [] = [1, 4, "tayo", 34, "Teni"]
+console.log(data[3]);
+
+export {}
